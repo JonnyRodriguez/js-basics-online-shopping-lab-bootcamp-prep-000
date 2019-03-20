@@ -37,7 +37,6 @@ function total() {
     total+=cart[i].itemPrice;
   }*/
   cart.forEach( item => {total+=item.itemPrice;} );
-  total=+total;
   return total;
 }
 
